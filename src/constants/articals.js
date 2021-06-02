@@ -1,8 +1,8 @@
 const articals = [
     {
-        title: 'Article 1',
+        title: 'Article 4',
         upvotes: 22,
-        date: "2021-05-29",
+        date: "2021-05-01",
     },
     {
         title: 'Article 2',
@@ -10,47 +10,47 @@ const articals = [
         date: "2021-05-28",
     },
     {
-        title: 'Article 3',
+        title: 'Article 9',
         upvotes: 20,
         date: "2021-05-27",
     },
     {
-        title: 'Article 4',
+        title: 'Article 12',
         upvotes: 16,
         date: "2021-05-26",
     },
     {
-        title: 'Article 5',
+        title: 'Article 545',
         upvotes: 12,
         date: "2021-05-22",
     },
     {
-        title: 'Article 6',
+        title: 'Article 12',
         upvotes: 32,
         date: "2021-05-21",
     },
     {
-        title: 'Article 7',
+        title: 'Article 17',
         upvotes: 18,
         date: "2021-05-20",
     },
     {
-        title: 'Article 8',
+        title: 'Article 89',
         upvotes: 42,
         date: "2021-05-19",
     },
     {
-        title: 'Article 9',
+        title: 'Article 92',
         upvotes: 22,
         date: "2021-05-18",
     },
     {
-        title: 'Article 10',
+        title: 'Article 110',
         upvotes: 223,
         date: "2021-05-17",
     },
     {
-        title: 'Article 11',
+        title: 'Article 121',
         upvotes: 326,
         date: "2021-05-16",
     },

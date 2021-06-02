@@ -6,6 +6,15 @@ import SelectField from "./ui/SelectField";
 
 const App = () => {
   const [sortBy, setSortBy] = useState('');
+
+  articals.sort((a, b) => {
+    switch (sortBy) {
+      case 'recent': return new Date(b.date) - new Date(a.date)
+      case 'upvoted': return b.upvotes - a.upvotes;
+      default: return a.upvotes - b.upvotes
+    }
+  });
+
   return (
     <div className={styles.root}>
       <header className={styles.header}>
